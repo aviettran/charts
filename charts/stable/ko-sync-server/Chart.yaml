@@ -2,7 +2,7 @@ apiVersion: v2
 appVersion: 1.0.1.2
 description: ko-sync-server helm package
 name: ko-sync-server
-version: 1.0.0
+version: 1.0.1
 kubeVersion: ">=1.16.0-0"
 keywords:
   - ko-sync-server
