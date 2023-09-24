@@ -1,0 +1,23 @@
+apiVersion: v2
+appVersion: 1.0.1.2
+description: ko-sync-server helm package
+name: ko-sync-server
+version: 1.0.0
+kubeVersion: ">=1.16.0-0"
+keywords:
+  - ko-sync-server
+home: https://github.com/aviettran/charts/tree/master/charts/stable/ko-sync-server
+icon: https://user-images.githubusercontent.com/202757/38782665-5b7b7078-40f7-11e8-8eeb-d7040fb341c3.png
+sources:
+  - https://github.com/aviettran/charts
+maintainers:
+  - name: Adam Tran
+    email: aviettran@gmail.com
+dependencies:
+  - name: common
+    repository: https://library-charts.k8s-at-home.com
+    version: 4.5.2
+annotations:
+  artifacthub.io/changes: |
+    - kind: added
+      description: Initial version
